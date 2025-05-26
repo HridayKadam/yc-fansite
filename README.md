@@ -1,7 +1,7 @@
-# yc-fansite
-# 🚀 YC Vibes Landing Page
+ yc-fansite
+# YC Vibes Landing Page
 
-A bold, clean, and fun YC-style landing page made with Tailwind CSS. Perfect for showcasing a prelaunch, side project, or demo with strong founder energy.
+A bold, clean, and fun YC-style landing page made with Tailwind CSS 
 
 ---
 
