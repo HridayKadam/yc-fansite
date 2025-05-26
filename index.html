@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Launch Ready</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/7721e52d74ea060c272e681c4f8a3ebd11b93c84_image.png">
+  <style>
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+
+  <header class="fixed top-0 w-full bg-white border-b border-gray-200 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-orange-500">Launch Ready 🚀</h1>
+      <nav class="hidden md:flex gap-6 font-medium">
+        <a href="#features" class="hover:text-orange-500">Features</a>
+        <a href="#how" class="hover:text-orange-500">How it Works</a>
+        <a href="#faq" class="hover:text-orange-500">FAQ</a>
+        <a href="#contact" class="hover:text-orange-500">Subscribe</a>
+      </nav>
+      <button class="md:hidden" onclick="document.getElementById('sidebar').classList.toggle('hidden')">
+        <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  
+  <div id="sidebar" class="hidden md:hidden fixed top-16 left-0 w-full bg-white border-t border-gray-200 z-40 shadow">
+    <nav class="flex flex-col px-4 py-4 space-y-2 font-medium">
+      <a href="#features" class="hover:text-orange-500">Features</a>
+      <a href="#how" class="hover:text-orange-500">How it Works</a>
+      <a href="#faq" class="hover:text-orange-500">FAQ</a>
+      <a href="#contact" class="hover:text-orange-500">Subscribe</a>
+    </nav>
+  </div>
+
+
+  <section class="min-h-screen flex items-center justify-center text-center px-4 pt-24 fade-in bg-gradient-to-br from-orange-100 to-blue-100">
+    <div class="container max-w-2xl">
+      <h2 class="text-5xl font-extrabold mb-4 text-orange-600">Your Startup Journey Starts Here</h2>
+      <p class="text-gray-700 text-lg mb-6">Build fast. Launch faster. It's time to make something real.</p>
+      <a href="#features" class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-8 rounded-full text-lg shadow transition-all">Explore Features</a>
+    </div>
+  </section>
+
+
+  <section id="features" class="container mx-auto px-4 py-20">
+    <h3 class="text-3xl font-bold text-orange-600 mb-10 text-center">Founder-First Features</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white border p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="font-semibold text-lg mb-2">Blazing Speed</h4>
+        <p class="text-gray-600 text-sm">Get your MVP out in days, not weeks.</p>
+      </div>
+      <div class="bg-white border p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="font-semibold text-lg mb-2">Responsive UI</h4>
+        <p class="text-gray-600 text-sm">Looks great on mobile and desktop.</p>
+      </div>
+      <div class="bg-white border p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="font-semibold text-lg mb-2">Founder Friendly</h4>
+        <p class="text-gray-600 text-sm">Made by builders who know your grind.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="bg-white py-20">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-orange-600 mb-8 text-center">How It Works</h3>
+      <ol class="space-y-6 max-w-3xl mx-auto">
+        <li class="bg-orange-50 p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
+          <strong>Step 1:</strong> Think of a cool idea you believe in.
+        </li>
+        <li class="bg-orange-50 p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
+          <strong>Step 2:</strong> Use this site to quickly validate or launch.
+        </li>
+        <li class="bg-orange-50 p-4 rounded-lg shadow-sm border-l-4 border-orange-500">
+          <strong>Step 3:</strong> Share it with your first 10 users and iterate!
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  
+  <section class="container mx-auto px-4 py-16">
+    <h3 class="text-2xl font-bold text-orange-600 text-center mb-8">Gallery</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/7721e52d74ea060c272e681c4f8a3ebd11b93c84_image.png" alt="demo" class="rounded-lg shadow-md" />
+      <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/fcf6182053b8ee4efe5d0a591a866edb353b0372_image.png" alt="demo" class="rounded-lg shadow-md" />
+      <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/e80dab155c8f0430beabbb02d6989705a6ae2e24_image.png" alt="demo" class="rounded-lg shadow-md" />
+      <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/aabf09948baf10dbe0e191fa0890e8d6e92377ad_image.png" alt="demo" class="rounded-lg shadow-md" />
+    </div>
+  </section>
+
+  
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold text-orange-600 mb-8">What Founders Say</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow text-left">
+          <p class="text-gray-700 italic">“Insanely helpful. We went from idea to launch in 48 hours.”</p>
+          <p class="text-sm mt-2 text-orange-600 font-semibold"> ~ Hriday Kadam Indie Hacker</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-left">
+          <p class="text-gray-700 italic">“It’s clean, it's fast, it's founder-first. Just what I needed.”</p>
+          <p class="text-sm mt-2 text-orange-600 font-semibold"> ~ Elon Musk Student Founder</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="faq" class="container mx-auto px-4 py-20">
+    <h3 class="text-3xl font-bold text-orange-600 mb-8 text-center">FAQ</h3>
+    <div class="space-y-4 max-w-3xl mx-auto">
+      <details class="bg-white border border-gray-200 p-4 rounded-lg">
+        <summary class="font-semibold cursor-pointer">Is this really built by a student?</summary>
+        <p class="text-gray-600 mt-2">Yep. No team. Just passion and Tailwind.</p>
+      </details>
+      <details class="bg-white border border-gray-200 p-4 rounded-lg">
+        <summary class="font-semibold cursor-pointer">How do I contribute?</summary>
+        <p class="text-gray-600 mt-2">Launch something cool. Or just share this page.</p>
+      </details>
+    </div>
+  </section>
+
+
+  <section id="contact" class="bg-orange-50 py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold text-orange-600 mb-4">Stay in the Loop</h3>
+      <p class="text-gray-700 mb-6">Get occasional founder tips and product drops.</p>
+      <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+        <input type="email" placeholder="you@example.com" class="flex-1 p-3 border border-gray-300 rounded-lg" required>
+        <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="bg-white border-t border-gray-200 py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-gray-500 text-sm">Made with ❤️ by Hriday Kadam </p>
+    </div>
+  </footer>
+
+</body>
+</html>
